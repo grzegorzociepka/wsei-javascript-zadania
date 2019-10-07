@@ -60,5 +60,17 @@ const task4Array = [
 
 //5
 function create2DArray(rows,columns){
-    
+    let myDoubleArray = new Array(rows);
+
+    for(var i = 0;i<rows;i++)
+        myDoubleArray[i] = new Array(columns);
+    let index = 0;
+    for(let i = 0; i< myDoubleArray.length;i++){
+        
+        for(let l = 0; l < myDoubleArray[i].length;l++){
+            myDoubleArray[i][l] = index;
+            index++;
+        }
+    }
+return myDoubleArray;
 }
