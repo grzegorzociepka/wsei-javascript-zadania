@@ -14,8 +14,6 @@ function fruits(){
         'mango',
         'japko'
     ]
-    console.log(arrayOfFruits[0]);
-    console.log(arrayOfFruits[arrayOfFruits.length - 1]);
 
     for(let i = 0; i<arrayOfFruits.length;i++){
         console.log(arrayOfFruits[i]);
