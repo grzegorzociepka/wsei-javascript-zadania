@@ -1,5 +1,5 @@
 // 0a
-let city = {
+const city = {
     capital:'Warsaw',
     population:10000,
     president:'Trzaskowski',
@@ -9,7 +9,7 @@ let city = {
 console.log(city.capital,city.population,city.president,city.primeMinisters);
 
 //0b
-let timeMachine = {
+const timeMachine = {
     shape:'kwadrat',
     model:'model',
     run: function(date,place) {
@@ -21,7 +21,7 @@ console.log(timeMachine.shape,timeMachine.model);
 timeMachine.run('24.12.2019','Wioska Świętego Mikołaja');
 
 //1
-let book = {
+const book = {
     title:"Tytuł",
     author:"autor",
     numberOfPages:23
@@ -30,7 +30,7 @@ let book = {
 console.log(book.title,book.author,book.numberOfPages);
 
 //2
-let person = {
+const person = {
     name:'Adam',
     age:23,
     sayHello: () => console.log('hello')
@@ -40,7 +40,7 @@ console.log(person.name,person.age);
 person.sayHello();
 
 //3
-let recipe = {
+const recipe = {
     title:"Jajówa",
     servings:1
 }
