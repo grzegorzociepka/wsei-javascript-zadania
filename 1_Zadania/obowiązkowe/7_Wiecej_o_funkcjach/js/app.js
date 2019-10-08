@@ -5,28 +5,29 @@
  */
 
 
-//Twoj komentarz ...
+//deklaracja pierwszej metody
 function jeden() {
 
-    //Twoj komentarz ...
+    //zadeklarowanie zmienna1 i przypisanie jej wartości
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //deklaracja drugiej metody
     function dwa() {
 
-        //Twoj komentarz ...
+        //logowanie zmiennej zadeklarowanej wyzej, w funkcji jeden
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //zadeklarowanie zmienna2 i przypisanie jej wartości
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //wywołanie drugiej funkcji
     dwa();
 
-    //Twoj komentarz ...
+    //próba logowania zmienna2, pokaze sie błąd undefined, bo zmienna2 jest w innym scope
+    //nie jest tutaj dostępna
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+//wywołanie funkcji pierwszej
 jeden()
