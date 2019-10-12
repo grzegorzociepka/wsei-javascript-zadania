@@ -45,16 +45,16 @@
 
             <div class='panel'>
                 <div class='panel-body'>
-                    <form>
+                    <form onsubmit="event.preventDefault();  validate();" name='TaskForm'>
                         <div class='form-group'>
                             <label>Drużyna 1:</label>
-                            <input type="text" class='form-control' id='team1' name="email">
+                            <input type="text" class='form-control' id='team1' name="team1">
                             <label>Ilość punktów drużyny 1:</label>
-                            <input type="text" class='form-control' id='points1' name="surname">
+                            <input type="text" class='form-control' id='points1' name="points1">
                             <label>Drużyna 2:</label>
-                            <input type="text" class='form-control' id='team2' name="name">
+                            <input type="text" class='form-control' id='team2' name="team2">
                             <label>Ilość punktów drużyny 2:</label>
-                            <input type="text" class='form-control' id='points2' name="surname">
+                            <input type="text" class='form-control' id='points2' name="points2">
                         </div>
                         <p>
                             <button class='btn btn-primary'>Submit</button>
@@ -66,5 +66,5 @@
     </div>
 
 </body>
-
+<script src="js/zadanie03.js" type="text/javascript"></script>
 </html>
