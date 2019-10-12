@@ -32,3 +32,5 @@ var planets = [
         numberOfMoons: 13
     }
 ];
+
+const sortPlanets = () => planets.sort(({numberOfMoons: a}, {numberOfMoons: b}) => b - a);
