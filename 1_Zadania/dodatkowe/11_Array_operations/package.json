@@ -1,0 +1,16 @@
+{
+  "name": "11_array_operations",
+  "version": "1.0.0",
+  "description": "> Do realizacji zadań używaj odpowiednich metod do operacji na tablicach, dostępnych w ES6: ```forEach()```, ```map()```, ```reduce()```.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
