@@ -20,4 +20,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	};
 
+	class Students {
+		constructor(students) {
+			this.students = students;
+			this.numberOfLetters = [];
+		}
+	
+		countLetters = () => {
+			this.numberOfLetters = this.students.map(student => student.length);
+		}
+	}
+	
+	const students = new Students(['Ania', 'Kamil', 'Mariusz']);
+	students.countLetters();
+	console.log(students.numberOfLetters);
+
 });
